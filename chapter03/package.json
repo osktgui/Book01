@@ -1,0 +1,15 @@
+{
+  "name": "meadowlark",
+  "version": "1.0.0",
+  "description": "website for Meadowlark Travel, a company offering services for people visiting the great state of Oregon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "osktgui",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.4",
+    "jade": "^1.10.0"
+  }
+}
