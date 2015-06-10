@@ -1,4 +1,5 @@
 var express = require('express');
+var fortune = require('./lib/fortune');
 
 var app = express();
 
@@ -19,7 +20,8 @@ app.get('/', function(req, res){
 app.get('/about', function(req, res){
   res.type('text/html');
   res.render('about', {
-    'title': 'About Us'
+    'title': 'About Us',
+    'fortune': 'this is a fortune'
   });
 });
 
